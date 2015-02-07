@@ -1,0 +1,20 @@
+{
+  "name": "dlmoody.github.io",
+  "version": "0.0.1",
+  "homepage": "https://github.com/dlmoody/dlmoody.github.io",
+  "authors": [
+    "David Moody <moody.david@gmail.com>"
+  ],
+  "description": "This is my portfolio project",
+  "main": "app.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "js/lib/components",
+    "test",
+    "tests"
+  ]
+}
