@@ -1,0 +1,22 @@
+{
+  "name": "dlmoody.github.io",
+  "version": "0.0.1",
+  "description": "This is my portfolio based on a great template by blah",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dlmoody/dlmoody.github.io.git"
+  },
+  "author": "David L Moody Jr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dlmoody/dlmoody.github.io/issues"
+  },
+  "homepage": "https://github.com/dlmoody/dlmoody.github.io",
+  "devDependencies": {
+    "gulp": "^3.8.10"
+  }
+}
