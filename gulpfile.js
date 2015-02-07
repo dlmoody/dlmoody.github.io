@@ -2,7 +2,14 @@
 
 var gulp = require('gulp');
 
-gulp.task('default', function(){
-  console.log('gulp task is runnng');
+var webserver = require('gulp-webserver');
 
+gulp.task('webserver', function() {
+  gulp.src('./')
+      .pipe(webserver({
+        livereload: true,
+        fallback: 'index.html',
+        directoryListing: true,
+        open: 'http://localhost:8000/index.html'
+      }));
 });

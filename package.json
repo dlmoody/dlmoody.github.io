@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/dlmoody/dlmoody.github.io",
   "devDependencies": {
-    "gulp": "^3.8.10"
+    "gulp": "^3.8.10",
+    "gulp-livereload": "^3.7.0",
+    "gulp-webserver": "^0.9.0"
   }
 }
